@@ -85,7 +85,7 @@ function Question() {
             </div>
           </form>
           <div className='mt-10  px-5 text-white/50'>
-            <p>try searching "How long have we been together?" ;)</p>
+            <p>try searching "how long have we been together?" ;)</p>
           </div>
         </div>
       )}

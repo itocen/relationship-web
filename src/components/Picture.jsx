@@ -10,8 +10,8 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: aquarium1, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: aurora2, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: aquarium1, title: 'My Pretty Girl', description: "You mean so much to me and I'm so happy to have you in my life."},   
+    { Image: aurora2, title: 'My WIFE MUAHAHAHHA', description: "You always manage to put a smile on my face and always make me feel like I'm the only person in the world."},
 
   ]
   return (
@@ -20,7 +20,7 @@ function Picture() {
 
       <div className="w-[90%] max-w-[400px]">
         <h1 className="text-2xl sm:text-2xl font-bold -mb-4 drop-shadow-lg text-white text-center">
-            Our Pictures
+            MY BEAUTIFUL GIRL!
           </h1>
         <Carousel>
           {pictures.map(({Image,title,description,index}) => (
